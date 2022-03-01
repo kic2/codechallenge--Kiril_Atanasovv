@@ -1,0 +1,63 @@
+@media all and (min-width: 992px) and (max-width: 1024px) {
+  body .wrapper .card-content_img img {
+    height: 150px;
+    width: 150px;
+  }
+  body .wrapper .card-info_avatar img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  body .wrapper .card-content {
+    height: 300px;
+  }
+  body .wrapper .card-content p {
+    font-size: 0.6rem;
+  }
+  body .wrapper .card-info_logo img {
+    width: 20px;
+    height: 20px;
+  }
+  body .wrapper .card-info_namedate p {
+    font-size: 0.6rem;
+  }
+  body .wrapper .card-info_namedate a {
+    font-size: 0.9rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  body .wrapper {
+    flex-flow: column;
+  }
+  body .wrapper .card-content {
+    height: 400px;
+  }
+  body .wrapper .card-info_logo img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 300px) {
+  body .wrapper {
+    flex-flow: column;
+  }
+  body .wrapper-pair {
+    flex-flow: column;
+  }
+  body .wrapper .card {
+    width: 300px;
+  }
+  body .container .btn-container button {
+    width: 150px;
+  }
+  body .wrapper .card-content p {
+    font-size: 0.7rem;
+  }
+  body .wrapper .card-info_namedate p {
+    font-size: 0.7rem;
+  }
+  body .wrapper .card-info_namedate a {
+    font-size: 1rem;
+  }
+}
